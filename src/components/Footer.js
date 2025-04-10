@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
   return (
-    <>
-    <div>Logo</div>
-    <div>Doormat Navigation</div>
-    <div>Contact</div>
-    <div>Social Media Link</div>
-    </>
-  )
+    <div className="box">
+      <div>Logo</div>
+      <div>Doormat Navigation</div>
+      <div>Contact</div>
+      <div>Social Media</div>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
