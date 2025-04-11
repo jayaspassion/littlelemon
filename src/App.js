@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import Homepage from "./components/Homepage";
 import BookingPage from "./components/BookingPage";
 import { Routes, Route } from "react-router-dom";
+import LoginPage from "./components/LoginPage";
+import Specials from "./components/Specials";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/booking" element={<BookingPage />} />
+          <Route path="/specials" element={<Specials />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
       </main>
 

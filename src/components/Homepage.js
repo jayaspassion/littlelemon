@@ -6,12 +6,12 @@ import Chicago from './Chicago'
 
 const Homepage = () => {
   return (
-    <div className='homepage'>
+    <section className='homepage'>
         <CallToAction />
         <Specials />
         <CustomersSay />
         <Chicago />
-    </div>
+    </section>
   )
 }
 

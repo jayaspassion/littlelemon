@@ -1,10 +1,14 @@
 import React from 'react'
+import { Testimonial } from './Testimonial'
 
 const CustomersSay = () => {
   return (
-    <section className='testimonials'>
-        <h1>Testimonials</h1>
-        <div></div>
+    <section className='customers-say'>
+        <Testimonial />
+        <Testimonial />
+        <Testimonial />
+        <Testimonial />
+        <Testimonial />
     </section>
   )
 }

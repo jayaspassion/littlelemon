@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../assets/Logo.svg"; // Adjust the path as necessary
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 function Nav() {
   return (
@@ -8,22 +10,25 @@ function Nav() {
         <img src={logo} alt="Logo" />
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <HashLink smooth to="/#about">About</HashLink>
           </li>
           <li>
-            <a href="#menu">Menu</a>
+            <HashLink smooth to="/#specials">Menu</HashLink>
           </li>
+          {/* <li>
+            <Link to="#menu">Menu</Link>
+          </li> */}
           <li>
-            <a href="#reservation">Reservation</a>
+            <Link to="booking">Reservation</Link>
           </li>
+          {/* <li>
+            <Link to="#order-online">Order Online</Link>
+          </li> */}
           <li>
-            <a href="#order-online">Order Online</a>
-          </li>
-          <li>
-            <a href="#login">Login</a>
+            <Link to="login">Login</Link>
           </li>
         </ul>
       </nav>

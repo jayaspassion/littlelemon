@@ -1,8 +1,11 @@
 import React from 'react'
+import { BookingForm } from './BookingForm'
 
 const BookingPage = () => {
   return (
-    <div>BookingPage</div>
+    <section className='booking-page'>
+      <BookingForm/>
+    </section>
   )
 }
 
