@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/littlelemon/static/css/main.f373fe8a.css",
-    "main.js": "/littlelemon/static/js/main.75a0aa3a.js",
+    "main.js": "/littlelemon/static/js/main.d02b8f22.js",
     "static/js/453.8dae57ee.chunk.js": "/littlelemon/static/js/453.8dae57ee.chunk.js",
     "static/media/Mario and Adrian A.jpg": "/littlelemon/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
     "static/media/Mario and Adrian b.jpg": "/littlelemon/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
@@ -11,11 +11,11 @@
     "static/media/Logo.svg": "/littlelemon/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
     "index.html": "/littlelemon/index.html",
     "main.f373fe8a.css.map": "/littlelemon/static/css/main.f373fe8a.css.map",
-    "main.75a0aa3a.js.map": "/littlelemon/static/js/main.75a0aa3a.js.map",
+    "main.d02b8f22.js.map": "/littlelemon/static/js/main.d02b8f22.js.map",
     "453.8dae57ee.chunk.js.map": "/littlelemon/static/js/453.8dae57ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f373fe8a.css",
-    "static/js/main.75a0aa3a.js"
+    "static/js/main.d02b8f22.js"
   ]
 }
